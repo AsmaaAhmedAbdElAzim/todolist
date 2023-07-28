@@ -1,0 +1,88 @@
+.bg-list{
+  background-color: rgb(62, 4, 78);
+  overflow: hidden;
+  height: 100vh;
+}
+
+.list-bg{
+  background-color: rgb(112, 93, 116);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+}
+.list-bg  div{
+  display: flex;
+  align-items: center;
+}
+.taskNumber{
+  color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+}
+.list-bg .done .taskText{
+  text-decoration: line-through;
+  opacity: 0.3;
+  flex: 1;
+}
+.tools{
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block ;
+}
+.tools span{
+  display: inline-block;
+  margin: 0px 10px ;
+  cursor: pointer;
+  color:rgb(223, 226, 50);
+}
+.tools span:hover{
+  color: rgb(62, 4, 78);
+}
+.fa-square-check{
+  position: relative;
+  /* right:19px; */
+  cursor: pointer;
+  color:rgb(223, 226, 50) ;
+}
+.check-empty{
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  border: 2px solid;
+  cursor: pointer;
+  border-color: rgb(223, 226, 50);
+}
+.mr-20{
+  margin-right: 20px;
+}
+.add-btn{
+  background-color: rgb(223, 226, 50) !important;
+  border: rgb(223, 226, 50) 1px solid;
+  cursor: pointer;
+}
+.add-btn:hover{
+  background-color: transparent !important;
+  color: rgb(223, 226, 50) !important;
+  border:  rgb(223, 226, 50) 1px solid !important;
+}
+.update-btn{
+  background-color: rgb(223, 226, 50) !important;
+  border: rgb(223, 226, 50) 1px solid;
+  cursor: pointer;
+}
+.update-btn:hover{
+  background-color: transparent !important;
+  color: rgb(223, 226, 50) !important;
+  border:  rgb(223, 226, 50) 1px solid !important;
+}
+
